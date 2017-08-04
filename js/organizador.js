@@ -1443,7 +1443,7 @@
 	
 	var nextColor = 0;
 	
-	var cuatriActual = "2Q2016";
+	var cuatriActual = "2Q2017";
 	
 	var cuatriDatos = cuatriActual;
 	
