@@ -1433,7 +1433,7 @@
 			xhr.send();
 			//escribirMensaje("Cargados horarios 2do Cuatrimestre 2016",0);
 			cuatriDatos = "1Q2017";
-			document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2017)";
+			document.getElementById('textCuatri').innerHTML = "(2do Cuatrimestre 2017)";
 			document.getElementById('but5_sub').style.visibility = 'hidden';
 	  });
 	  
@@ -1443,6 +1443,7 @@
         xhr.onload = function(e) {
             if (this.status == 200) {
                 openFileDatos({target: {files: [this.response]}});
+		document.getElementById('textCuatri').innerHTML = "(2do Cuatrimestre 2017)";
             }
         };
         xhr.send();
