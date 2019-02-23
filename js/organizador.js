@@ -1173,9 +1173,9 @@
 			reader.onload = function(){
 				
 				stringDatos = reader.result;
-				
+
 				stringDatos =  stringDatos.split("\"\n");
-				
+
 				aDatos = new Array(stringDatos.length-1);
 				var linea;
 				
