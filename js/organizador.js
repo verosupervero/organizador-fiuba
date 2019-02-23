@@ -1208,7 +1208,9 @@
 
 				if(cuatriDatos == "1Q2018")
 					document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2018)";
-					
+				
+				if(cuatriDatos == "1Q2019")
+					document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2019)";
 				var i;
 				
 				for(var j=1;j<stringDatos.length;j++){
@@ -1458,14 +1460,30 @@
 			document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2018)";
 			document.getElementById('but5_sub').style.visibility = 'hidden';
 	  });
+	
+		$("#but5_9").click(function(){
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', "Horarios_1Q2019.csv", true);
+			xhr.responseType = 'blob';
+			xhr.onload = function(e) {
+				if (this.status == 200) {
+					openFileDatos({target: {files: [this.response]}});
+				}
+			};
+			xhr.send();
+			//escribirMensaje("Cargados horarios 2do Cuatrimestre 2016",0);
+			cuatriDatos = "1Q2019";
+			document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2019)";
+			document.getElementById('but5_sub').style.visibility = 'hidden';
+	  });
 	  
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', "Horarios_1Q2018.csv", true);
+        xhr.open('GET', "Horarios_1Q2019.csv", true);
         xhr.responseType = 'blob';
         xhr.onload = function(e) {
             if (this.status == 200) {
                 openFileDatos({target: {files: [this.response]}});
-		document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2018)";
+		document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2019)";
             }
         };
         xhr.send();
@@ -1501,7 +1519,7 @@
 	
 	var nextColor = 0;
 	
-	var cuatriActual = "1Q2018";
+	var cuatriActual = "1Q2019";
 	
 	var cuatriDatos = cuatriActual;
 	
