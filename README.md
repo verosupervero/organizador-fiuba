@@ -1,7 +1,5 @@
 # Organizador FIUBA
 
-[Entrar](https://lugfi.github.io/organizador-fiuba/)
-
 El organizador te ayuda a organizar las materias con un calendario semanal, mostrando superposiciones y permitiendo probar distintas combinaciones de cursos rapidamente.
 
 # Última actualización
