@@ -4,7 +4,7 @@ El organizador te ayuda a organizar las materias con un calendario semanal, most
 
 # Última actualización
 
-Primer cuatrimestre de 2019.
+Primer cuatrimestre de 2020.
 
 # Uso
 
