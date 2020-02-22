@@ -1,4 +1,4 @@
-# Organizador FIUBA
+# Organizador FIUBA <img src="https://img.shields.io/badge/cuatri-1Q2020-success" />
 
 El organizador te ayuda a organizar las materias con un calendario semanal, mostrando superposiciones y permitiendo probar distintas combinaciones de cursos rapidamente.
 
