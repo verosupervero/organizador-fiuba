@@ -1212,7 +1212,7 @@
 				if(cuatriDatos == "1Q2019")
 					document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2019)";
 				
-				if(cuatriDatos == "2Q2020")
+				if(cuatriDatos == "1Q2020")
 					document.getElementById('textCuatri').innerHTML = "(1er Cuatrimestre 2020)";
 				var i;
 				
