@@ -8,7 +8,7 @@ Primer cuatrimestre de 2020.
 
 # Uso
 
-Una vez en el [sitio](https://lugfi.github.io/organizador-fiuba/), automáticamente se cargan los datos del último cuatrimestre actualizado.
+Una vez en el [sitio](https://verosupervero.github.io/organizador-fiuba/), automáticamente se cargan los datos del último cuatrimestre actualizado.
 
 # Datos
 
