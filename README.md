@@ -28,7 +28,7 @@ Una vez en el [sitio](https://verosupervero.github.io/organizador-fiuba/), autom
 ### Programando
 
 1. Hacer un fork del repositorio
-1. Hacer las modificaciones necesarias en la rama `gh-pages`, la cual automáticamente levanta el [sitio](https://lugfi.github.io/organizador-fiuba/)
+1. Hacer las modificaciones necesarias en la rama `gh-pages`, la cual automáticamente levanta el [sitio](https://verosupervero.github.io/organizador-fiuba/)
 1. Crear un pull request para integrar los cambios en este repositorio
 
 # Creditos
