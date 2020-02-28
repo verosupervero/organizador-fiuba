@@ -670,6 +670,9 @@
 				case "Ing.Agrim":
 					if(document.getElementById("car12").checked == true) valido = 1;
 				break;
+				case "Petróleo":
+					if(document.getElementById("car13").checked == true) valido = 1;
+				break;
 				case "Todas":
 					valido = 1;
 				break;			
@@ -701,7 +704,7 @@
 	function checkAll(){
 		var i;
 		var b = 0;
-		for(i=1;i<13;i++){
+		for(i=1;i<CANTIDAD_CARRERAS;i++){
 			if(document.getElementById("car" + i).checked == false) b  = 1;
 		}
 		if(b == 1){
@@ -717,6 +720,7 @@
 			document.getElementById("car10").checked = true;
 			document.getElementById("car11").checked = true;
 			document.getElementById("car12").checked = true;
+			document.getElementById("car13").checked = true;
 		}else{
 			document.getElementById("car1").checked = false;
 			document.getElementById("car2").checked = false;
@@ -730,6 +734,7 @@
 			document.getElementById("car10").checked = false;
 			document.getElementById("car11").checked = false;
 			document.getElementById("car12").checked = false;
+			document.getElementById("car13").checked = false;
 		
 		}
 	
@@ -737,7 +742,7 @@
 	
 	function allCheckFalse(){
 		var b = 1;
-		for(var i=1;i<13;i++){
+		for(var i=1;i<CANTIDAD_CARRERAS;i++){
 			if(document.getElementById("car" + i).checked == true) b  = 0;
 		}
 		return b;
@@ -745,7 +750,7 @@
 	
 	function siTodasCarrerasCheck(){
 		var b = 1;
-		for(var i=1;i<13;i++){
+		for(var i=1;i<CANTIDAD_CARRERAS;i++){
 			if(document.getElementById("car" + i).checked == false) b  = 0;
 		}
 		return b;
@@ -948,7 +953,8 @@
 					if(document.getElementById("car9").checked == true && aDatos[i][3].indexOf("Sistemas") != -1) filtrar = 0;
 					if(document.getElementById("car10").checked == true && aDatos[i][3].indexOf("Informática") != -1) filtrar = 0;
 					if(document.getElementById("car11").checked == true && aDatos[i][3].indexOf("Alimentos") != -1) filtrar = 0;
-					if(document.getElementById("car12").checked == true && aDatos[i][3].indexOf("Ing.Agrim") != -1) filtrar = 0;	
+					if(document.getElementById("car12").checked == true && aDatos[i][3].indexOf("Ing.Agrim") != -1) filtrar = 0;
+					if(document.getElementById("car13").checked == true && aDatos[i][3].indexOf("Petróleo") != -1) filtrar = 0;
 					if(filtrar == 1) continue;
 				}			
 			
@@ -1556,3 +1562,5 @@
 	
 	var windowWidth = window.screen.availWidth;
 	var windowHeight = window.screen.availHeight;
+
+	var CANTIDAD_CARRERAS = 14;
