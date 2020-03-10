@@ -34,4 +34,4 @@ Una vez en el [sitio](https://verosupervero.github.io/organizador-fiuba/), autom
 # Creditos
 
 - Franco Spada es el autor original del organizador
-- [Martín Coll](https://github.com/tinchou) mantiene este repositorio y la versión web
+- En colaboradores se ve quiénes actualmente mantienen el repo
